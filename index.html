@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Github Users</title>
+        <link rel="icon" type="image/x-icon" href="github.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
+
+    <body>
+        <div class="wrapper">
+
+            <div class="show-info" id="show-info">
+                <div class="first-row">
+                    <div class="profile">
+                        <img src="" id="profile">
+                    </div>
+                    <div class="personal-info">
+                        <p id="name"></p>
+                        <p id="blog"></p>
+                        <p id="location"></p>
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="bio" id="bio">
+                        <!-- <p>Backend Developer<br>Happy</p> -->
+                    </div>
+                    <p id="language"></p>
+                </div>
+                
+                
+            </div>
+
+
+            <div class="search-box">
+                <div class="box">
+                    <h1>Give me name<br>I'll give you info..</h1>
+                    <!-- User Input -->
+                    <div class="username">
+                        <label for="usn">Username</label>
+                        <input type="text" placeholder="Username" id="username">
+                        <i class="far fa-user"></i>
+                    </div>
+                
+                    <button id="btn" type="submit" onclick="do_something()">submit</button>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
