@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Noto+Sans+Arabic:wght@300;400;700&family=Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato","Vibes";
+
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("praveen-thirumurugan-KPAQpJYzH0Y-unsplash.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    text-align: center;
+}
+.box,.show-info{
+    border-radius: 15px;
+    width: 400px;
+    padding: 50px;
+    margin: 90px;
+    background-color: rgba(0,0,0,0.5);
+    /* box-shadow :  2px 1px 2px #ffc400ef; */
+    display:flex;
+    flex-direction:column;
+}
+.show-info{
+    padding: 60px;
+    padding-right: 0;
+    width: fit-content;
+    height: fit-content;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+.personal-info{
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    
+}
+.second-row{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bio{
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.box h1{
+    color: white;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    align-self: center;
+    font-size: 25px;
+}
+
+#blog{
+    display: inline-block
+}
+
+.username{
+    position: relative;
+    margin-left: -25px;
+    margin-top: 25px;
+}
+
+label{
+    font-weight: 400;
+    float: left;
+    margin: 10px;
+    color: #ffc400ca;
+}
+
+.fa-user{
+    position: absolute;
+    right: 5px;
+    top: 57px;
+    color: white;
+
+}
+::placeholder{
+    font-family:"Lato","Vibes";
+    font-weight: 300;
+}
+
+button{
+    font-family:"Lato";
+    font-weight: 400;
+}
+
+.box input[type="text"]{
+    font-size: 20px;
+    font-weight: 400;
+    border: 0;
+    background: none;
+    display: block;
+    /* margin: 20px auto; */
+    text-align: center;
+    border: 1px solid #ffc400ef;
+    padding: 14px 10px;
+    width: 350px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    /* transition: all .2s ease-in; */
+
+}
+
+.box input[type="text"]:focus{
+    border-color: #15c70c;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    border: 0;
+    background: none;
+    border: 1px solid #ffc400ec;
+    display: block;
+    margin: 20px auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 9px 35px;
+    font-size: 18px;
+    color: white;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+#btn:hover{
+    background-color: #ffc400ca;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#language{
+    text-align: left;
+    margin-top: 15px;
+}
